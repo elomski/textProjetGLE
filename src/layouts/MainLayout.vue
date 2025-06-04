@@ -3,7 +3,10 @@
     <q-header elevated>
       <q-toolbar>
         <q-toolbar-title>Ecommerce </q-toolbar-title>
-        <div>
+
+        <q-btn dense  label="Passer au  panier" aria-label="Menu" @click="goToCart" />
+
+        <div class="q-ml-xl">
           <q-btn flat dense round icon="shopping_cart" aria-label="Cart" @click="toggleRightDrawer">
             <q-badge v-if="cartStore.cartItems.length > 0" floating color="red">
               {{ totalCartQuantity }}
