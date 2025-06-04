@@ -1,9 +1,13 @@
-## 🧰 Technologies utilisées
+# 🛒 Projet Quasar – Gestion de Panier E-commerce
 
-- **Vue.js** – Framework JavaScript moderne
-- **Quasar** – Framework UI basé sur Vue, avec CLI intégré
-- **Pinia** – Store officiel de Vue 3 pour la gestion d’état
+Le projet front-end **textProjetGLE** réalisé avec **Quasar** (basé sur Vue.js) permet la gestion d’un panier sur une page produit.  
+L’application utilise un **store centralisé** qui est **pinia** pour ajouter, retirer des produits, et suivre le total du panier en temps réel.
 
+
+### Description de ce qui a été fait
+- J'ai fait une page d'accueil pour afficher les produits 
+- Aussi un tiroir pour afficher le contenu du panier qui est dynamique a chaque fois qu'il y a un produit qui est ajouter et retirer de meme que le prix total de chaque produit dans le panier et le prix total du panier
+- un boutton pour passer directement a la page panier
 
 
 ## 🖼️ Fonctionnalités du projet
@@ -16,12 +20,11 @@
 - ✅ Bouton pour **naviguer vers la page panier**
 - ✅ Intégration complète avec **Pinia (store Vue officiel)** pour la gestion de l’état du panier
 
+## 🧰 Technologies utilisées
 
-
-# 🛒 Projet Quasar – Gestion de Panier E-commerce
-
-Le projet front-end **textProjetGLE** réalisé avec **Quasar** (basé sur Vue.js) permet la gestion d’un panier sur une page produit.  
-L’application utilise un **store centralisé** qui est **pinia** pour ajouter, retirer des produits, et suivre le total du panier en temps réel.
+- **Vue.js** – Framework JavaScript moderne
+- **Quasar** – Framework UI basé sur Vue, avec CLI intégré
+- **Pinia** – Store officiel de Vue 3 pour la gestion d’état
 
 ---
 
